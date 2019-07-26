@@ -1,0 +1,25 @@
+#intro{
+  background-image: url("/home/algorithm/Desktop/pizza-inn/pizza.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  background-attachment: fixed;
+
+}
+#intro h1{
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+  font-size: 100px;
+}
+#intro p{
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+  font-size: 40px;
+}
