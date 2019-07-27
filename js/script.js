@@ -82,7 +82,31 @@ $(document).ready(function() {
           $("#select5").hide();
         });
       });
-      
+      $(document).ready(function() {
+        $("#select6").click(function() {
+          $("#select6").show();
+          $("#hform6").hide();
+        });
+      });
+      $(document).ready(function() {
+        $("#select6").click(function() {
+           $("#hform6").show();
+           $("#select6").hide();
+         });
+       });
+       $(document).ready(function() {
+         $("#select7").click(function() {
+           $("#select7").show();
+           $("#hform7").hide();
+         });
+       });
+       $(document).ready(function() {
+         $("#select7").click(function() {
+            $("#hform7").show();
+            $("#select7").hide();
+          });
+        });
+
  // $(document).ready(function() {
    $("form#hform").submit(function(event) {
      event.preventDefault();
