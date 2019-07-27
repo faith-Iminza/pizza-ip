@@ -1,11 +1,11 @@
-.nav{
+.intro{
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
   overflow: hidden;
   background-color: white;
 }
-.header li{
+.intro li{
   float : left;
   margin: 0;
   padding: 0;
@@ -15,36 +15,199 @@
   font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
   font-size: 40px;
   color : white;
+  display : flex;
 }
-.header li a:hover {
+.intro li a:hover {
   background-color: #111;
 }
 
-#intro{
+.intro{
   background-image: url("/home/algorithm/Desktop/pizza-inn/pizza.png");
   background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:100vh;
+  height:630px;
   background-attachment: fixed;
 
 }
-#intro h1{
+.intro h1{
   align-items: center;
   text-align: center;
   justify-content: center;
   color: white;
   font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
   font-size: 100px;
+  padding-top : 200px;
 }
-#intro p{
+.intro p{
   text-align: center;
   justify-content: center;
   color: white;
   font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
   font-size: 40px;
 }
-#intro button{
+.mine{
+  display: flex;
+  flex-direction:column;
   align-items:center;
+  justify-content : center;
+}
+#size{
+  float : right;
+}
+#crust{
+  float : right;
+}
+#card{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card img{
+  height: 300px;
+  width: 400px;
+}
+#card-body h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform{
+  display : none;
+}
+#card1{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card1 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body1 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform1{
+  display : none;
+}
+#card2{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card2 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body2 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform2{
+  display : none;
+}
+#card3{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card3 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body3 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform3{
+  display : none;
+}
+#card4{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card4 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body4 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform4{
+  display : none;
+}
+#card5{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card5 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body5 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform5{
+  display : none;
+}
+#card6{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card6 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body6 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform6{
+  display : none;
+}
+#card7{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card7 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body7 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform7{
+  display : none;
 }
