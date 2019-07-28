@@ -9,6 +9,9 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
     <title>Order-now</title>
   </head>
   <body>
@@ -26,16 +29,30 @@
         <p class="card-text">It's toppings are Bacon, Pineapple and Cheese.</p>
           <button class="btn btn-primary" type="text" name="select" id="select" onclick="" >select</button>
         <div id="hform">
-          <form action="order-now.html" method="post">
+          <form action="" method="">
               <label for="size">Size</label>
-                <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+              <select class="browser-default custom-select" id="size">
+                <option selected>Choose...</option>
+                <option value="1">Small(500/=)</option>
+                <option value="2">Medium(750/=)</option>
+                <option value="3">Large(1000/=)</option>
+              </select><br>
               <label for="toppings" name="toppings">Toppings</label>
-                <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+              <select class="browser-default custom-select" id="toppings">
+                <option selected>Choose...</option>
+                <option value="1">Extra Cheese(100/=)</option>
+                <option value="2">Extra Toppings(200/=)</option>
+              </select><br>
               <label for="crust">Crust</label>
-                <input class="form-control" type="text" name="crust" id="crust"><br>
+              <select class="browser-default custom-select" id="crust">
+                <option selected>Choose...</option>
+                <option value="1">Crispy(200/=)</option>
+                <option value="2">Stuffed(300/=)</option>
+                <option value="3">Gluten-free(200/=)</option>
+              </select><br>
               <label for="quantity">Quantity</label>
-                <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-          <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+                <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+                <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
           </form>
         </div>
         </div>
@@ -53,16 +70,30 @@
         <p class="card-text">It's topping is marinated barbecue steak.</p>
           <button class="btn btn-primary" type="text" name="select" id="select1" onclick="" >select</button>
         <div id="hform1">
-          <form action="order-now.html" method="post">
+          <form action="" method="">
               <label for="size">Size</label>
-                <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+              <select class="browser-default custom-select" id="size">
+                <option selected>Choose...</option>
+                <option value="1">Small(500/=)</option>
+                <option value="2">Medium(750/=)</option>
+                <option value="3">Large(1000/=)</option>
+              </select><br>
               <label for="toppings" name="toppings">Toppings</label>
-                <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+              <select class="browser-default custom-select" id="toppings">
+                <option selected>Choose...</option>
+                <option value="1">Extra Cheese(100/=)</option>
+                <option value="2">Extra Toppings(200/=)</option>
+              </select><br>
               <label for="crust">Crust</label>
-                <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+              <select class="browser-default custom-select" id="crust">
+                <option selected>Choose...</option>
+                <option value="1">Crispy(200/=)</option>
+                <option value="2">Stuffed(300/=)</option>
+                <option value="3">Gluten-free(200/=)</option>
+              </select><br>
               <label for="quantity">Quantity</label>
-                <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-          <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+                <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+                <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
           </form>
         </div>
         </div>
@@ -82,16 +113,30 @@
     <p class="card-text">It's topping are spicy peri-peri chicken.</p>
       <button class="btn btn-primary" type="text" name="select" id="select2" onclick="" >select</button>
     <div id="hform2">
-      <form action="order-now.html" method="post">
+      <form action="" method="">
           <label for="size">Size</label>
-            <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+          <select class="browser-default custom-select" id="size">
+            <option selected>Choose...</option>
+            <option value="1">Small(500/=)</option>
+            <option value="2">Medium(750/=)</option>
+            <option value="3">Large(1000/=)</option>
+          </select><br>
           <label for="toppings" name="toppings">Toppings</label>
-            <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+          <select class="browser-default custom-select" id="toppings">
+            <option selected>Choose...</option>
+            <option value="1">Extra Cheese(100/=)</option>
+            <option value="2">Extra Toppings(200/=)</option>
+          </select><br>
           <label for="crust">Crust</label>
-            <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+          <select class="browser-default custom-select" id="crust">
+            <option selected>Choose...</option>
+            <option value="1">Crispy(200/=)</option>
+            <option value="2">Stuffed(300/=)</option>
+            <option value="3">Gluten-free(200/=)</option>
+          </select><br>
           <label for="quantity">Quantity</label>
-            <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-      <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+            <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+            <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
       </form>
     </div>
     </div>
@@ -109,16 +154,30 @@
   <p class="card-text">It's toppings are 100% beef mince, fresh tomato, fresh onion.</p>
     <button class="btn btn-primary" type="text" name="select" id="select3" onclick="" >select</button>
   <div id="hform3">
-    <form action="order-now.html" method="post">
+    <form action="" method="">
         <label for="size">Size</label>
-          <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+        <select class="browser-default custom-select" id="size">
+          <option selected>Choose...</option>
+          <option value="1">Small(500/=)</option>
+          <option value="2">Medium(750/=)</option>
+          <option value="3">Large(1000/=)</option>
+        </select><br>
         <label for="toppings" name="toppings">Toppings</label>
-          <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+        <select class="browser-default custom-select" id="toppings">
+          <option selected>Choose...</option>
+          <option value="1">Extra Cheese(100/=)</option>
+          <option value="2">Extra Toppings(200/=)</option>
+        </select><br>
         <label for="crust">Crust</label>
-          <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+        <select class="browser-default custom-select" id="crust">
+          <option selected>Choose...</option>
+          <option value="1">Crispy(200/=)</option>
+          <option value="2">Stuffed(300/=)</option>
+          <option value="3">Gluten-free(200/=)</option>
+        </select><br>
         <label for="quantity">Quantity</label>
-          <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-    <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+          <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+          <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
     </form>
   </div>
   </div>
@@ -138,16 +197,30 @@
   <p class="card-text">It's topping are sweetcorn, red & green pepper, mushroom, onion, jalapenos, tikka sauce.</p>
     <button class="btn btn-primary" type="text" name="select" id="select4" onclick="" >select</button>
   <div id="hform4">
-    <form action="order-now.html" method="post">
+    <form action="" method="">
         <label for="size">Size</label>
-          <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+        <select class="browser-default custom-select" id="size">
+          <option selected>Choose...</option>
+          <option value="1">Small(500/=)</option>
+          <option value="2">Medium(750/=)</option>
+          <option value="3">Large(1000/=)</option>
+        </select><br>
         <label for="toppings" name="toppings">Toppings</label>
-          <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+        <select class="browser-default custom-select" id="toppings">
+          <option selected>Choose...</option>
+          <option value="1">Extra Cheese(100/=)</option>
+          <option value="2">Extra Toppings(200/=)</option>
+        </select><br>
         <label for="crust">Crust</label>
-          <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+        <select class="browser-default custom-select" id="crust">
+          <option selected>Choose...</option>
+          <option value="1">Crispy(200/=)</option>
+          <option value="2">Stuffed(300/=)</option>
+          <option value="3">Gluten-free(200/=)</option>
+        </select><br>
         <label for="quantity">Quantity</label>
-          <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-    <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+          <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+          <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
     </form>
   </div>
   </div>
@@ -165,16 +238,30 @@
 <p class="card-text">It's toppings are chicken and Tikka sauce.</p>
   <button class="btn btn-primary" type="text" name="select" id="select5" onclick="" >select</button>
 <div id="hform5">
-  <form action="order-now.html" method="post">
+  <form action="" method="">
       <label for="size">Size</label>
-        <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+      <select class="browser-default custom-select" id="size">
+        <option selected>Choose...</option>
+        <option value="1">Small(500/=)</option>
+        <option value="2">Medium(750/=)</option>
+        <option value="3">Large(1000/=)</option>
+      </select><br>
       <label for="toppings" name="toppings">Toppings</label>
-        <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+      <select class="browser-default custom-select" id="toppings">
+        <option selected>Choose...</option>
+        <option value="1">Extra Cheese(100/=)</option>
+        <option value="2">Extra Toppings(200/=)</option>
+      </select><br>
       <label for="crust">Crust</label>
-        <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+      <select class="browser-default custom-select" id="crust">
+        <option selected>Choose...</option>
+        <option value="1">Crispy(200/=)</option>
+        <option value="2">Stuffed(300/=)</option>
+        <option value="3">Gluten-free(200/=)</option>
+      </select><br>
       <label for="quantity">Quantity</label>
-        <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-  <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+        <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+        <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
   </form>
 </div>
 </div>
@@ -194,16 +281,30 @@
   <p class="card-text">It's toppings are chicken and mashroom.</p>
     <button class="btn btn-primary" type="text" name="select" id="select6" onclick="" >select</button>
   <div id="hform6">
-    <form action="order-now.html" method="post">
+    <form action="" method="">
         <label for="size">Size</label>
-          <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+        <select class="browser-default custom-select" id="size">
+          <option selected>Choose...</option>
+          <option value="1">Small(500/=)</option>
+          <option value="2">Medium(750/=)</option>
+          <option value="3">Large(1000/=)</option>
+        </select><br>
         <label for="toppings" name="toppings">Toppings</label>
-          <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+        <select class="browser-default custom-select" id="toppings">
+          <option selected>Choose...</option>
+          <option value="1">Extra Cheese(100/=)</option>
+          <option value="2">Extra Toppings(200/=)</option>
+        </select><br>
         <label for="crust">Crust</label>
-          <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+        <select class="browser-default custom-select" id="crust">
+          <option selected>Choose...</option>
+          <option value="1">Crispy(200/=)</option>
+          <option value="2">Stuffed(300/=)</option>
+          <option value="3">Gluten-free(200/=)</option>
+        </select><br>
         <label for="quantity">Quantity</label>
-          <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-    <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+          <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+          <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
     </form>
   </div>
   </div>
@@ -221,16 +322,30 @@
 <p class="card-text">It's toppings are peperoni, basil,dried oregano and tomato Paste .</p>
   <button class="btn btn-primary" type="text" name="select" id="select7" onclick="" >select</button>
 <div id="hform7">
-  <form action="order-now.html" method="post">
+  <form action="" method="">
       <label for="size">Size</label>
-        <input class="form-control" type="text" name="size" id="size" placeholder="Small"><br>
+      <select class="browser-default custom-select" id="size">
+        <option selected>Choose...</option>
+        <option value="1">Small(500/=)</option>
+        <option value="2">Medium(750/=)</option>
+        <option value="3">Large(1000/=)</option>
+      </select><br>
       <label for="toppings" name="toppings">Toppings</label>
-        <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Extra Cheese"><br>
+      <select class="browser-default custom-select" id="toppings">
+        <option selected>Choose...</option>
+        <option value="1">Extra Cheese(100/=)</option>
+        <option value="2">Extra Toppings(200/=)</option>
+      </select><br>
       <label for="crust">Crust</label>
-        <input class="form-control" type="text" name="crust" id="crust" placeholder="Gluten-free"><br>
+      <select class="browser-default custom-select" id="crust">
+        <option selected>Choose...</option>
+        <option value="1">Crispy(200/=)</option>
+        <option value="2">Stuffed(300/=)</option>
+        <option value="3">Gluten-free(200/=)</option>
+      </select><br>
       <label for="quantity">Quantity</label>
-        <input class="form-control" type="text" name="quantity" id="quan" placeholder="0"><br><br>
-  <button class="btn btn-primary" type="text" name="submit" id="submit" onclick="" >Checkout</button>
+        <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
+        <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
   </form>
 </div>
 </div>
@@ -238,59 +353,14 @@
 </div>
 </div>
 
-
+    <!-- <div id= "lists">
       <div class="List">
         <ul>
           <li></li>
         </ul>
       </div>
-
-
-        <!-- <div id="dropdown">
-          <select>
-            <optgroup id="size" placeholder="size">
-              <option value="small">Small</option>
-              <option value="medium">Meduim</option>
-              <option value="large">Large</option>
-          </select>
-          <select>
-            <optgroup id='crust' placeholder="Crust">
-              <option value="crust">Crispy</option>
-              <option value="crust">Stuffed</option>
-              <option value="crust">Gluten-free</option>
-          </select>
-          <select>
-            <optgroup id='toppings' placeholder="toppings">
-              <option value="crust">Extra cheese</option>
-              <option value="crust">Extra Bacon</option>
-              <option value="crust">pinapples</option>
-              <option value="crust">Olives</option>
-          </select> -->
-        <!-- <form action="/action_page.php">
-          <input type="checkbox" name="toppings1" value="extra cheese">Extra Cheese<br>
-          <input type="checkbox" name="toppings2" value="olives">Olives<br>
-          <input type="checkbox" name="toppings3" value="pineapples">Pineapple<br>
-          <input type="checkbox" name="toppings4" value="extra bacon">Extra Bacon<br></br>
-        </form> -->
-
-        <!-- <form class="" action="order-now.html" method="post">
-            <label for="size">Size</label>
-              <input class="form-control" type="text" name="size" id="size" placeholder="size"><br>
-            <label for="toppings" name="toppings">Toppings</label>
-              <input class="form-control" type="text" name="toppings" id="toppings" placeholder="Toppings"><br>
-            <label for="crust">Crust</label>
-              <input class="form-control" type="text" name="crust" id="crust"><br>
-            <label for="quantity">Quantity</label>
-              <input class="form-control" type="text" name="quantity" id="quan" placeholder="31"><br><br>
-
-
-        </form> -->
-        <!-- <button class="btn btn-primary" id="add to cart" onclick="myFunction();">Add to cart</button> -->
+    </div> -->
         </div>
-        <!-- <button type="button" name="button" id="checkout" onclick="#add to cart" >Checkout</button>
-       Card -->
-      </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+
   </body>
 </html>

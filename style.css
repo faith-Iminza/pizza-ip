@@ -17,9 +17,9 @@
   color : white;
   display : flex;
 }
-.intro li a:hover {
-  background-color: #111;
-}
+/* .intro ul:hover {
+  background-color: white;
+} */
 
 .intro{
   background-image: url("/home/algorithm/Desktop/pizza-inn/pizza.png");
