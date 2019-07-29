@@ -55,9 +55,9 @@ this.quantity = quantity;
                   });
                 });
                 $(document).ready(function() {
-                  $("#select4").click(function() {
-                     $("#hform4").show();
-                     $("#select4").hide();
+                  $("#select3").click(function() {
+                     $("#hform3").show();
+                     $("#select3").hide();
                    });
                    });
                    $(document).ready(function() {
@@ -67,9 +67,9 @@ this.quantity = quantity;
                      });
                    });
                    $(document).ready(function() {
-                     $("#select5").click(function() {
-                        $("#hform5").show();
-                        $("#select5").hide();
+                     $("#select4").click(function() {
+                        $("#hform4").show();
+                        $("#select4").hide();
                       });
                       });
                       $(document).ready(function() {
@@ -79,11 +79,23 @@ this.quantity = quantity;
                         });
                       });
                       $(document).ready(function() {
-                        $("#select6").click(function() {
-                           $("#hform6").show();
-                           $("#select6").hide();
+                        $("#select5").click(function() {
+                           $("#hform5").show();
+                           $("#select5").hide();
                          });
                          });
+                         $(document).ready(function() {
+                           $("#select6").click(function() {
+                             $("#select6").show();
+                             $("#hform6").hide();
+                           });
+                         });
+                         $(document).ready(function() {
+                           $("#select6").click(function() {
+                              $("#hform6").show();
+                              $("#select6").hide();
+                            });
+                            });
                          $(document).ready(function() {
                            $("#select7").click(function() {
                              $("#select7").show();
@@ -141,152 +153,156 @@ function getTotalAmount() {
 }
 
 
-function getSizeValue() {
-   var selectedValue = document.getElementById("size1").value;
-   return parseInt(selectedValue);
+function getSizeValue1() {
+   var selectedValue1 = document.getElementById("size1").value;
+   return parseInt(selectedValue1);
 }
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings1").value;
-   return parseInt(selectedToppings);
+function getToppings1() {
+   var selectedToppings1 = document.getElementById("toppings1").value;
+   return parseInt(selectedToppings1);
 }
-function getCrust() {
-   var selectedCrust = document.getElementById("crust1").value;
-   return parseInt(selectedCrust);
+function getCrust1() {
+   var selectedCrust1 = document.getElementById("crust1").value;
+   return parseInt(selectedCrust1);
 }
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan1").value;
-   return parseInt(selectedQuantity);
+function getQuantity1() {
+   var selectedQuantity1 = document.getElementById("quan1").value;
+   return parseInt(selectedQuantity1);
 }
 function getTotalAmount1() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
+   var totalAmount1 = (getSizeValue1() + getCrust1() + getToppings1()) * getQuantity1();
+   alert ("You ordered " + getQuantity1() + " pizza(s)." + ""+" Your bill is " + (totalAmount1));
 }
 
 
-function getSizeValue() {
-   var selectedValue = document.getElementById("size2").value;
-   return parseInt(selectedValue);
+function getSizeValue2() {
+   var selectedValue2 = document.getElementById("size2").value;
+   return parseInt(selectedValue2);
 }
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings2").value;
-   return parseInt(selectedToppings);
+function getToppings2() {
+   var selectedToppings2 = document.getElementById("toppings2").value;
+   return parseInt(selectedToppings2);
 }
-function getCrust() {
-   var selectedCrust = document.getElementById("crust2").value;
-   return parseInt(selectedCrust);
+function getCrust2() {
+   var selectedCrust2 = document.getElementById("crust2").value;
+   return parseInt(selectedCrust2);
 }
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan2").value;
-   return parseInt(selectedQuantity);
+function getQuantity2() {
+   var selectedQuantity2 = document.getElementById("quan2").value;
+   return parseInt(selectedQuantity2);
 }
-function getTotalAmount() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
-}
-
-
-function getSizeValue() {
-   var selectedValue = document.getElementById("size3").value;
-   return parseInt(selectedValue);
-}
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings3").value;
-   return parseInt(selectedToppings);
-}
-function getCrust() {
-   var selectedCrust = document.getElementById("crust3").value;
-   return parseInt(selectedCrust);
-}
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan3").value;
-   return parseInt(selectedQuantity);
-}
-function getTotalAmount() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
-}
-function getSizeValue() {
-   var selectedValue = document.getElementById("size4").value;
-   return parseInt(selectedValue);
-}
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings4").value;
-   return parseInt(selectedToppings);
-}
-function getCrust() {
-   var selectedCrust = document.getElementById("crust4").value;
-   return parseInt(selectedCrust);
-}
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan4").value;
-   return parseInt(selectedQuantity);
-}
-
-function getTotalAmount() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
-}
-function getSizeValue() {
-   var selectedValue = document.getElementById("size5").value;
-   return parseInt(selectedValue);
-}
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings5").value;
-   return parseInt(selectedToppings);
-}
-function getCrust() {
-   var selectedCrust = document.getElementById("crust5").value;
-   return parseInt(selectedCrust);
-}
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan5").value;
-   return parseInt(selectedQuantity);
-}
-function getTotalAmount() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
+function getTotalAmount2() {
+   var totalAmount2 = (getSizeValue2() + getCrust2() + getToppings2()) * getQuantity2();
+   alert ("You ordered " + getQuantity2() + " pizza(s)." + ""+" Your bill is " + (totalAmount2));
 }
 
 
-function getSizeValue() {
-   var selectedValue = document.getElementById("size6").value;
-   return parseInt(selectedValue);
+function getSizeValue3() {
+   var selectedValue3 = document.getElementById("size3").value;
+   return parseInt(selectedValue3);
 }
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings6").value;
-   return parseInt(selectedToppings);
+function getToppings3() {
+   var selectedToppings3 = document.getElementById("toppings3").value;
+   return parseInt(selectedToppings3);
 }
-function getCrust() {
-   var selectedCrust = document.getElementById("crust6").value;
-   return parseInt(selectedCrust);
+function getCrust3() {
+   var selectedCrust3 = document.getElementById("crust3").value;
+   return parseInt(selectedCrust3);
 }
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan6").value;
-   return parseInt(selectedQuantity);
+function getQuantity3() {
+   var selectedQuantity3 = document.getElementById("quan3").value;
+   return parseInt(selectedQuantity3);
 }
-function getTotalAmount() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
+function getTotalAmount3() {
+   var totalAmount3 = (getSizeValue3() + getCrust3() + getToppings3()) * getQuantity3();
+   alert ("You ordered " + getQuantity3() + " pizza(s)." + ""+" Your bill is " + (totalAmount3));
 }
 
 
-function getSizeValue() {
-   var selectedValue = document.getElementById("size7").value;
-   return parseInt(selectedValue);
+function getSizeValue4() {
+   var selectedValue4 = document.getElementById("size4").value;
+   return parseInt(selectedValue4);
 }
-function getToppings() {
-   var selectedToppings = document.getElementById("toppings7").value;
-   return parseInt(selectedToppings);
+function getToppings4() {
+   var selectedToppings4 = document.getElementById("toppings4").value;
+   return parseInt(selectedToppings4);
 }
-function getCrust() {
-   var selectedCrust = document.getElementById("crust7").value;
-   return parseInt(selectedCrust);
+function getCrust4() {
+   var selectedCrust4 = document.getElementById("crust4").value;
+   return parseInt(selectedCrust4);
 }
-function getQuantity() {
-   var selectedQuantity = document.getElementById("quan7").value;
-   return parseInt(selectedQuantity);
+function getQuantity4() {
+   var selectedQuantity4 = document.getElementById("quan4").value;
+   return parseInt(selectedQuantity4);
 }
-function getTotalAmount() {
-   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-   alert ("You ordered " + getQuantity() + " pizza(s)." + ""+" Your bill is " + (totalAmount));
+
+function getTotalAmount4() {
+   var totalAmount4 = (getSizeValue4() + getCrust4() + getToppings4()) * getQuantity4();
+   alert ("You ordered " + getQuantity4() + " pizza(s)." + ""+" Your bill is " + (totalAmount4));
+}
+
+
+function getSizeValue5() {
+   var selectedValue5 = document.getElementById("size5").value;
+   return parseInt(selectedValue5);
+}
+function getToppings5() {
+   var selectedToppings5 = document.getElementById("toppings5").value;
+   return parseInt(selectedToppings5);
+}
+function getCrust5() {
+   var selectedCrust5 = document.getElementById("crust5").value;
+   return parseInt(selectedCrust5);
+}
+function getQuantity5() {
+   var selectedQuantity5 = document.getElementById("quan5").value;
+   return parseInt(selectedQuantity5);
+}
+function getTotalAmount5() {
+   var totalAmount5 = (getSizeValue5() + getCrust5() + getToppings5()) * getQuantity5();
+   alert ("You ordered " + getQuantity5() + " pizza(s)." + ""+" Your bill is " + (totalAmount5));
+}
+
+
+function getSizeValue6() {
+   var selectedValue6 = document.getElementById("size6").value;
+   return parseInt(selectedValue6);
+}
+function getToppings6() {
+   var selectedToppings6 = document.getElementById("toppings6").value;
+   return parseInt(selectedToppings6);
+}
+function getCrust6() {
+   var selectedCrust6 = document.getElementById("crust6").value;
+   return parseInt(selectedCrust6);
+}
+function getQuantity6() {
+   var selectedQuantity6 = document.getElementById("quan6").value;
+   return parseInt(selectedQuantity6);
+}
+function getTotalAmount6() {
+   var totalAmount6 = (getSizeValue6() + getCrust6() + getToppings6()) * getQuantity6();
+   alert ("You ordered " + getQuantity6() + " pizza(s)." + ""+" Your bill is " + (totalAmount6));
+}
+
+
+function getSizeValue7() {
+   var selectedValue7 = document.getElementById("size7").value;
+   return parseInt(selectedValue7);
+}
+function getToppings7() {
+   var selectedToppings7 = document.getElementById("toppings7").value;
+   return parseInt(selectedToppings7);
+}
+function getCrust7() {
+   var selectedCrust7 = document.getElementById("crust7").value;
+   return parseInt(selectedCrust7);
+}
+function getQuantity7() {
+   var selectedQuantity7 = document.getElementById("quan7").value;
+   return parseInt(selectedQuantity7);
+}
+function getTotalAmount7() {
+   var totalAmount7 = (getSizeValue7() + getCrust7() + getToppings7()) * getQuantity7();
+   alert ("You ordered " + getQuantity7() + " pizza(s)." + ""+" Your bill is " + (totalAmount7));
 }
