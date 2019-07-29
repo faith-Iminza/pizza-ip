@@ -10,5 +10,8 @@ One can access the page by opening a new tab and putting the link provided below
 The live link to the project is https://faith-iminza.github.io/pizza-ip/
 ## BDD :
 This website is a pizza delivery website where one clicks on the order button to take him or her in the next page where he or she can access the varieties of pizza available and inputs the information like the size,toppings,type of crust and quantity and the checkout will give the total of all costs.
+## Technologies used:
+The Technologies used to create this website include Javascript,HTML,CSS and bootstrap and J-Query.
+
 
 
