@@ -110,11 +110,14 @@
                  });
               $(document).ready(function() {
                  $("form").submit(function(){
-                   var psize = $("#size option:selected").val();
-                   var pcrust = $("#crust option:selected").val();
-                
+                   var psize = $("#size option:selected").text();
+                   var psize = $("#toppings option:selected").text();
+                    var pcrust = $("#crust option:selected").text();
+                    var pquantity=$("input#quan").val();
               });
             });
+
+
 //business logic
 // var size, toppings, crust, quantity;
 //
