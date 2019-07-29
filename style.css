@@ -22,7 +22,7 @@
 }
 
 .intro{
-  background-image: url("/home/algorithm/Desktop/pizza-inn/pizza.png");
+  background-image: url("pizza-inn/pizza.png");
   background-size: cover;
   flex-direction: column;
   align-items: center;
