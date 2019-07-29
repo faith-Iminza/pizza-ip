@@ -33,26 +33,26 @@
               <label for="size">Size</label>
               <select class="browser-default custom-select" id="size">
                 <option selected>Choose...</option>
-                <option value="1">Small(500/=)</option>
-                <option value="2">Medium(750/=)</option>
-                <option value="3">Large(1000/=)</option>
+                <option value="500">Small(500/=)</option>
+                <option value="750">Medium(750/=)</option>
+                <option value="1000">Large(1000/=)</option>
               </select><br>
               <label for="toppings" name="toppings">Toppings</label>
               <select class="browser-default custom-select" id="toppings">
                 <option selected>Choose...</option>
-                <option value="1">Extra Cheese(100/=)</option>
-                <option value="2">Extra Toppings(200/=)</option>
+                <option value="100">Extra Cheese(100/=)</option>
+                <option value="200">Extra Toppings(200/=)</option>
               </select><br>
               <label for="crust">Crust</label>
               <select class="browser-default custom-select" id="crust">
                 <option selected>Choose...</option>
-                <option value="1">Crispy(200/=)</option>
-                <option value="2">Stuffed(300/=)</option>
-                <option value="3">Gluten-free(200/=)</option>
+                <option value="200">Crispy(200/=)</option>
+                <option value="300">Stuffed(300/=)</option>
+                <option value="200">Gluten-free(200/=)</option>
               </select><br>
               <label for="quantity">Quantity</label>
                 <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-                 <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a> 
+                <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit" onclick= "getTotalAmount();" ><strong>Checkout</strong></button>
           </form>
         </div>
         </div>
@@ -69,31 +69,31 @@
          <!-- Text -->
         <p class="card-text">It's topping is marinated barbecue steak.</p>
           <button class="btn btn-primary" type="text" name="select" id="select1" onclick="" >select</button>
-        <div id="hform1">
+         <div id="hform1">
           <form action="" method="">
               <label for="size">Size</label>
-              <select class="browser-default custom-select" id="size">
+              <select class="browser-default custom-select" id="size1">
                 <option selected>Choose...</option>
-                <option value="1">Small(500/=)</option>
-                <option value="2">Medium(750/=)</option>
-                <option value="3">Large(1000/=)</option>
+                <option value="500">Small(500/=)</option>
+                <option value="750">Medium(750/=)</option>
+                <option value="1000">Large(1000/=)</option>
               </select><br>
               <label for="toppings" name="toppings">Toppings</label>
-              <select class="browser-default custom-select" id="toppings">
+              <select class="browser-default custom-select" id="toppings1">
                 <option selected>Choose...</option>
-                <option value="1">Extra Cheese(100/=)</option>
-                <option value="2">Extra Toppings(200/=)</option>
+                <option value="100">Extra Cheese(100/=)</option>
+                <option value="200">Extra Toppings(200/=)</option>
               </select><br>
               <label for="crust">Crust</label>
-              <select class="browser-default custom-select" id="crust">
+              <select class="browser-default custom-select" id="crust1">
                 <option selected>Choose...</option>
-                <option value="1">Crispy(200/=)</option>
-                <option value="2">Stuffed(300/=)</option>
-                <option value="3">Gluten-free(200/=)</option>
+                <option value="200">Crispy(200/=)</option>
+                <option value="300">Stuffed(300/=)</option>
+                <option value="200">Gluten-free(200/=)</option>
               </select><br>
               <label for="quantity">Quantity</label>
-                <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-                <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+                <input class="form-control" type="text" name="pizza" id="quan1" placeholder="1" max="" min="1"><br><br>
+                <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit"onclick="getTotalAmount();" ><strong>Checkout</strong></button>
           </form>
         </div>
         </div>
@@ -115,28 +115,28 @@
     <div id="hform2">
       <form action="" method="">
           <label for="size">Size</label>
-          <select class="browser-default custom-select" id="size">
+          <select class="browser-default custom-select" id="size2">
             <option selected>Choose...</option>
-            <option value="1">Small(500/=)</option>
-            <option value="2">Medium(750/=)</option>
-            <option value="3">Large(1000/=)</option>
+            <option value="500">Small(500/=)</option>
+            <option value="750">Medium(750/=)</option>
+            <option value="1000">Large(1000/=)</option>
           </select><br>
           <label for="toppings" name="toppings">Toppings</label>
-          <select class="browser-default custom-select" id="toppings">
+          <select class="browser-default custom-select" id="toppings2">
             <option selected>Choose...</option>
-            <option value="1">Extra Cheese(100/=)</option>
-            <option value="2">Extra Toppings(200/=)</option>
+            <option value="100">Extra Cheese(100/=)</option>
+            <option value="200">Extra Toppings(200/=)</option>
           </select><br>
           <label for="crust">Crust</label>
-          <select class="browser-default custom-select" id="crust">
+          <select class="browser-default custom-select" id="crust2">
             <option selected>Choose...</option>
-            <option value="1">Crispy(200/=)</option>
-            <option value="2">Stuffed(300/=)</option>
-            <option value="3">Gluten-free(200/=)</option>
+            <option value="200">Crispy(200/=)</option>
+            <option value="300">Stuffed(300/=)</option>
+            <option value="200">Gluten-free(200/=)</option>
           </select><br>
           <label for="quantity">Quantity</label>
             <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-            <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+            <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit"onclick="getTotalAmount();" ><strong>Checkout</strong></button>
       </form>
     </div>
     </div>
@@ -156,28 +156,28 @@
   <div id="hform3">
     <form action="" method="">
         <label for="size">Size</label>
-        <select class="browser-default custom-select" id="size">
+        <select class="browser-default custom-select" id="size3">
           <option selected>Choose...</option>
-          <option value="1">Small(500/=)</option>
-          <option value="2">Medium(750/=)</option>
-          <option value="3">Large(1000/=)</option>
+          <option value="500">Small(500/=)</option>
+          <option value="750">Medium(750/=)</option>
+          <option value="1000">Large(1000/=)</option>
         </select><br>
         <label for="toppings" name="toppings">Toppings</label>
-        <select class="browser-default custom-select" id="toppings">
+        <select class="browser-default custom-select" id="toppings3">
           <option selected>Choose...</option>
-          <option value="1">Extra Cheese(100/=)</option>
-          <option value="2">Extra Toppings(200/=)</option>
+          <option value="100">Extra Cheese(100/=)</option>
+          <option value="200">Extra Toppings(200/=)</option>
         </select><br>
         <label for="crust">Crust</label>
-        <select class="browser-default custom-select" id="crust">
+        <select class="browser-default custom-select" id="crust3">
           <option selected>Choose...</option>
-          <option value="1">Crispy(200/=)</option>
-          <option value="2">Stuffed(300/=)</option>
-          <option value="3">Gluten-free(200/=)</option>
+          <option value="200">Crispy(200/=)</option>
+          <option value="300">Stuffed(300/=)</option>
+          <option value="200">Gluten-free(200/=)</option>
         </select><br>
         <label for="quantity">Quantity</label>
           <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-          <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+          <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit" onclick="getTotalAmount();" ><strong>Checkout</strong></button>
     </form>
   </div>
   </div>
@@ -199,28 +199,28 @@
   <div id="hform4">
     <form action="" method="">
         <label for="size">Size</label>
-        <select class="browser-default custom-select" id="size">
+        <select class="browser-default custom-select" id="size4">
           <option selected>Choose...</option>
-          <option value="1">Small(500/=)</option>
-          <option value="2">Medium(750/=)</option>
-          <option value="3">Large(1000/=)</option>
+          <option value="500">Small(500/=)</option>
+          <option value="750">Medium(750/=)</option>
+          <option value="1000">Large(1000/=)</option>
         </select><br>
         <label for="toppings" name="toppings">Toppings</label>
-        <select class="browser-default custom-select" id="toppings">
+        <select class="browser-default custom-select" id="toppings4">
           <option selected>Choose...</option>
-          <option value="1">Extra Cheese(100/=)</option>
-          <option value="2">Extra Toppings(200/=)</option>
+          <option value="100">Extra Cheese(100/=)</option>
+          <option value="200">Extra Toppings(200/=)</option>
         </select><br>
         <label for="crust">Crust</label>
-        <select class="browser-default custom-select" id="crust">
+        <select class="browser-default custom-select" id="crust4">
           <option selected>Choose...</option>
-          <option value="1">Crispy(200/=)</option>
-          <option value="2">Stuffed(300/=)</option>
-          <option value="3">Gluten-free(200/=)</option>
+          <option value="200">Crispy(200/=)</option>
+          <option value="300">Stuffed(300/=)</option>
+          <option value="200">Gluten-free(200/=)</option>
         </select><br>
         <label for="quantity">Quantity</label>
           <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-          <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+          <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit" onclick="getTotalAmount();" ><strong>Checkout</strong></button>
     </form>
   </div>
   </div>
@@ -240,28 +240,28 @@
 <div id="hform5">
   <form action="" method="">
       <label for="size">Size</label>
-      <select class="browser-default custom-select" id="size">
+      <select class="browser-default custom-select" id="size5">
         <option selected>Choose...</option>
-        <option value="1">Small(500/=)</option>
-        <option value="2">Medium(750/=)</option>
-        <option value="3">Large(1000/=)</option>
+        <option value="500">Small(500/=)</option>
+        <option value="750">Medium(750/=)</option>
+        <option value="1000">Large(1000/=)</option>
       </select><br>
       <label for="toppings" name="toppings">Toppings</label>
-      <select class="browser-default custom-select" id="toppings">
+      <select class="browser-default custom-select" id="toppings5">
         <option selected>Choose...</option>
-        <option value="1">Extra Cheese(100/=)</option>
-        <option value="2">Extra Toppings(200/=)</option>
+        <option value="100">Extra Cheese(100/=)</option>
+        <option value="200">Extra Toppings(200/=)</option>
       </select><br>
       <label for="crust">Crust</label>
-      <select class="browser-default custom-select" id="crust">
+      <select class="browser-default custom-select" id="crust5">
         <option selected>Choose...</option>
-        <option value="1">Crispy(200/=)</option>
-        <option value="2">Stuffed(300/=)</option>
-        <option value="3">Gluten-free(200/=)</option>
+        <option value="200">Crispy(200/=)</option>
+        <option value="300">Stuffed(300/=)</option>
+        <option value="200">Gluten-free(200/=)</option>
       </select><br>
       <label for="quantity">Quantity</label>
         <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-        <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+        <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit" onclick="getTotalAmount();" ><strong>Checkout</strong></button>
   </form>
 </div>
 </div>
@@ -283,28 +283,28 @@
   <div id="hform6">
     <form action="" method="">
         <label for="size">Size</label>
-        <select class="browser-default custom-select" id="size">
+        <select class="browser-default custom-select" id="size6">
           <option selected>Choose...</option>
-          <option value="1">Small(500/=)</option>
-          <option value="2">Medium(750/=)</option>
-          <option value="3">Large(1000/=)</option>
+          <option value="500">Small(500/=)</option>
+          <option value="750">Medium(750/=)</option>
+          <option value="1000">Large(1000/=)</option>
         </select><br>
         <label for="toppings" name="toppings">Toppings</label>
-        <select class="browser-default custom-select" id="toppings">
+        <select class="browser-default custom-select" id="toppings6">
           <option selected>Choose...</option>
-          <option value="1">Extra Cheese(100/=)</option>
-          <option value="2">Extra Toppings(200/=)</option>
+          <option value="100">Extra Cheese(100/=)</option>
+          <option value="200">Extra Toppings(200/=)</option>
         </select><br>
         <label for="crust">Crust</label>
-        <select class="browser-default custom-select" id="crust">
+        <select class="browser-default custom-select" id="crust6">
           <option selected>Choose...</option>
-          <option value="1">Crispy(200/=)</option>
-          <option value="2">Stuffed(300/=)</option>
-          <option value="3">Gluten-free(200/=)</option>
+          <option value="200">Crispy(200/=)</option>
+          <option value="300">Stuffed(300/=)</option>
+          <option value="200">Gluten-free(200/=)</option>
         </select><br>
         <label for="quantity">Quantity</label>
           <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-          <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+          <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit" onclick="getTotalAmount();" ><strong>Checkout</strong></button>
     </form>
   </div>
   </div>
@@ -324,28 +324,28 @@
 <div id="hform7">
   <form action="" method="">
       <label for="size">Size</label>
-      <select class="browser-default custom-select" id="size">
+      <select class="browser-default custom-select" id="size7">
         <option selected>Choose...</option>
-        <option value="1">Small(500/=)</option>
-        <option value="2">Medium(750/=)</option>
-        <option value="3">Large(1000/=)</option>
+        <option value="500">Small(500/=)</option>
+        <option value="750">Medium(750/=)</option>
+        <option value="1000">Large(1000/=)</option>
       </select><br>
       <label for="toppings" name="toppings">Toppings</label>
-      <select class="browser-default custom-select" id="toppings">
+      <select class="browser-default custom-select" id="toppings7">
         <option selected>Choose...</option>
-        <option value="1">Extra Cheese(100/=)</option>
-        <option value="2">Extra Toppings(200/=)</option>
+        <option value="100">Extra Cheese(100/=)</option>
+        <option value="200">Extra Toppings(200/=)</option>
       </select><br>
       <label for="crust">Crust</label>
-      <select class="browser-default custom-select" id="crust">
+      <select class="browser-default custom-select" id="crust7">
         <option selected>Choose...</option>
-        <option value="1">Crispy(200/=)</option>
-        <option value="2">Stuffed(300/=)</option>
-        <option value="3">Gluten-free(200/=)</option>
+        <option value="200">Crispy(200/=)</option>
+        <option value="300">Stuffed(300/=)</option>
+        <option value="200">Gluten-free(200/=)</option>
       </select><br>
       <label for="quantity">Quantity</label>
         <input class="form-control" type="text" name="pizza" id="quan" placeholder="1" max="" min="1"><br><br>
-        <a href="check-out.html"><button class="btn btn-success mx-auto d-block submit" type="submit" id="submit" ><strong>Checkout</strong></button></a>
+        <button class="btn btn-success mx-auto d-block submit" type="submit" class="submit" onclick="getTotalAmount();"><strong>Checkout</strong></button>
   </form>
 </div>
 </div>
@@ -356,7 +356,7 @@
     <!-- <div id= "lists">
       <div class="List">
         <ul>
-          <li></li>
+
         </ul>
       </div>
     </div> -->

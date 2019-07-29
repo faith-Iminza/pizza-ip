@@ -17,9 +17,9 @@
   color : white;
   display : flex;
 }
-/* .intro ul:hover {
-  background-color: white;
-} */
+.intro li a:hover {
+  background-color: #111;
+}
 
 .intro{
   background-image: url("/home/algorithm/Desktop/pizza-inn/pizza.png");
@@ -76,6 +76,25 @@
   font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
 }
 #hform{
+  display : none;
+}
+#card1{
+  border: black;
+  background-color: white;
+  width: 400px;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 20px;
+  text-align: center;
+}
+#card1 img{
+  height: 300px;
+  width: 400px;
+}
+#card-body1 h2{
+  font-family: "https://fonts.googleapis.com/css?family=Lato|Lobster&display=swap";
+}
+#hform1{
   display : none;
 }
 #card1{
